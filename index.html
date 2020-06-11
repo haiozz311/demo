@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col-12">
+                <h1 class="text-center">Quản Lý Sinh Viên</h1>
+                <div class="form-group">
+                    <label for="maSv">Mã Sinh Viên</label>
+                    <input type="text" id="maSv" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="tenSv">Tên Sinh Viên</label>
+                    <input type="text" id="tenSv" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="loaiSv">Loại Sinh Viên</label>
+                    <select name="" id="loaiSv" class="form-control">
+                        <option value="khó khăn">khó khăn</option>
+                        <option value="bình thường">bình thường</option>
+                        <option value="khá">khá</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-4">
+                            <label for="diemToan">Điểm toán</label>
+                            <input type="text" id="diemToan" class="form-control">
+                        </div>
+                        <div class="col-4">
+                            <label for="diemLy">Điểm lý</label>
+                            <input type="text" id="diemLy" class="form-control">
+                        </div>
+                        <div class="col-4">
+                            <label for="diemHoa">Điểm Hóa</label>
+                            <input type="text" id="diemHoa" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="renLuyen">Điểm rèn luyện</label>
+                    <input type="text" id="renLuyen" class="form-control">
+                </div>
+                <div class="form-group text-center">
+                    <button id="btn-xacnhan" class="btn btn-success">Xác nhận</button>
+                </div>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th class="px-5 font-weight-bold">Mã Sinh Viên</th>
+                            <th class="px-5 font-weight-bold">Tên Sinh Viên</th>
+                            <th class="px-5 font-weight-bold">Loại Sinh Viên</th>
+                            <th class="px-5 font-weight-bold">Điểm Trung Bình</th>
+                            <td class="px-5 font-weight-bold">Điểm Rèn Luyện</td>
+                        </tr>
+                    </thead>
+                    <tbody id="tblSinhVien">
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+      <script src="./js/index.js"></script>
+</body>
+
+</html>
